@@ -7,8 +7,10 @@ import Spinner from "./components/Spinner/Spinner";
 
 class App extends Component {
   componentDidMount() {
-    this.initPopup();
-    this.initSpinner();
+   console.log('componentDidMount')
+  }
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    console.log('componentDidUpdate');
   }
 
   render() {
@@ -16,16 +18,9 @@ class App extends Component {
       <div className="App">
         <Popup />
         <Spinner />
+        <button onClick={() => popupService.show('<h1>hello</h1>')}>Show</button>
       </div>
     );
-  }
-
-  initPopup() {
-    popupService.get();
-  }
-
-  initSpinner() {
-
   }
 }
 
