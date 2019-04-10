@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
 import './App.css';
-import * as popupService from './service/popup.service';
 import Popup from "./components/Popup/Popup";
 import Spinner from "./components/Spinner/Spinner";
+import SlidesScrollContainer from "./components/SlidesScrollContainer/SlidesScrollConatainer";
 
 class App extends Component {
   componentDidMount() {
@@ -18,7 +18,7 @@ class App extends Component {
       <div className="App">
         <Popup />
         <Spinner />
-        <button onClick={() => popupService.show('<h1>hello</h1>')}>Show</button>
+        <SlidesScrollContainer />
       </div>
     );
   }
