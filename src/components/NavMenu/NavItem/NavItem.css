@@ -8,7 +8,6 @@
 
 .NavItem:hover {
     background-color: rgba(128, 128, 128, 0.3);
-    transform: scaleX(1.1);
 }
 
 .NavItem__dropMenu {
