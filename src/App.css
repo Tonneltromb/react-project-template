@@ -1,6 +1,6 @@
 .App {
   background:
-          linear-gradient(rgba(0,0,0,0.5) 100%, transparent),
+          linear-gradient(rgba(255,255,255,0.2) 100%, transparent),
           url("./images/background-image-1.jpeg") center / cover no-repeat border-box,
           grey;
   /*background-image: url('./images/background-image-1.jpeg');*/
@@ -16,17 +16,17 @@
 }
 
 /*скрываем скроллбар с сохранением скроллинга*/
-/*.App::-webkit-scrollbar {*/
-/*  display: none;*/
-/*}*/
-
-.App__background {
-  background: url("images/background-image.jpg") center no-repeat;
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+.App::-webkit-scrollbar {
+  display: none;
 }
+
+/*.App__background {*/
+/*  background: url("images/background-image.jpg") center no-repeat;*/
+/*  background-size: cover;*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  z-index: -1;*/
+/*}*/

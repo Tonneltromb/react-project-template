@@ -1,0 +1,37 @@
+.NavItem {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.NavItem:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+    transform: scaleX(1.1);
+}
+
+.NavItem__dropMenu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: transparent;
+}
+
+.bottom-strategy {
+    top: 100%;
+    right: 0;
+}
+
+.left-strategy {
+    top: 0;
+    left: -100%;
+}
+
+.DropMenuNavItem {
+    position: relative;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}

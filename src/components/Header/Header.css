@@ -17,20 +17,19 @@
 
 
 .show-nav-menu-button {
-    animation: showMenu 0.5s ease-out forwards;
+    animation: showMenu 0.1s ease-out forwards;
 }
 
 .hide-nav-menu-button {
-    animation: hideMenu 0.5s ease-out forwards;
+    animation: hideMenu 0.1s ease-out forwards;
 }
 
-
 .show-expand-menu-button {
-    animation: showMenu 0.5s ease-out forwards;
+    animation: showMenu 0.1s ease-out forwards;
 }
 
 .hide-expand-menu-button {
-    animation: hideMenu 0.5s ease-out forwards;
+    animation: hideMenu 0.1s ease-out forwards;
 }
 
 .Header-collapse svg:hover {

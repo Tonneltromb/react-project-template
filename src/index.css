@@ -8,9 +8,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-div, p, button, span, h1, h2, h3, h4 {
+div, p, button, span, h1, h2, h3, h4, ul ,li {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 code {
